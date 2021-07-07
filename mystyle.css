@@ -167,3 +167,17 @@ p {
     color: var(--on-background);
 }
 
+/* Dark Mode Toggle */
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    right: 25px;
+    top: 30px;
+  }
+  
+.theme-switch-wrapper span {
+    margin-right: 10px;
+    font-size: 1rem;
+}
