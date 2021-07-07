@@ -110,3 +110,19 @@ button:disabled {
 button:hover:not(.outline) {
     filter: brightness(110%);
 }
+
+.primary {
+    background: var(--primary-color);
+    color: var(--on-primary);
+}
+
+.secondary {
+    border: 2px solid var(--secondary-color);
+}
+
+.secondary,
+.secondary:hover,
+.outline.secondary:hover {
+    background: var(--secondary-color);
+    color: var(--on-primary);
+}
