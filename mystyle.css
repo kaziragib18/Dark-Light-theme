@@ -49,3 +49,22 @@ nav {
     width: 100vw;
     background: rgb(255 255 255 / 50%);
 }
+a {
+    margin-right: 25px;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+a:hover,
+a:focus {
+    border-bottom: 3px solid;
+    color: var(--on-background);
+}
+
+/* About Section */
+.about-container {
+    display: flex;
+    
+}
