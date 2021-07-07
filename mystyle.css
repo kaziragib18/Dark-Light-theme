@@ -1,0 +1,26 @@
+body {
+    margin: 0;    
+    color: var(--on-background);
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: var(--background);      
+}
+
+section {
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /*100% of viewport height*/
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    color: var(--on-background-alt);
+    font-size: 32px;
+    font-weight: normal;
+}
