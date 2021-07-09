@@ -20,6 +20,8 @@ function toggleDarkLightMode(isDark) {
     isDark ? toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon') : toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
     isDark ? imageMode('dark') : imageMode('light');
 }
+// Event Listener
+toggleSwitch.addEventListener('change', switchTheme);
 
 // Switch Theme Dynamically
 function switchTheme(event) {
